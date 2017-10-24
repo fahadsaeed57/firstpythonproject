@@ -3,7 +3,7 @@ class numbers:
         fact=1
         for i in range(x,1,-1):
             fact*=i
-        print(fact)
+        print("fact is " +str(fact))
 
 
 num1 = numbers()
