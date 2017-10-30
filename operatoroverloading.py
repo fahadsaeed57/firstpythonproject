@@ -1,7 +1,7 @@
 class Overloading:
     def __init__(self,width=0,height=0):
         self.width = width;
-        self.height=height
+        self.height=height;
 
     def __str__(self):
         return "width : {0} Height : {1}".format(self.width,self.height)
